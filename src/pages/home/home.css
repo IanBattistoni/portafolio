@@ -1,0 +1,80 @@
+.home-page{
+    padding: 2rem 5% 5rem;
+    display:flex;
+    flex-direction: column;
+
+}
+.presentation{
+    
+    
+    display: flex;
+    gap: 8rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.presentation h1{
+    font-size: 2rem;
+    color: rgb(95, 9, 95);
+    margin: 0;
+}
+
+.presentation h3{
+    font-size: 1rem;
+    color: rgb(189, 187, 189);
+    margin: 0;
+}
+
+.social-icons{ 
+    padding-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+
+.ian-img{ 
+    border-radius: 50%;
+}
+
+.ian-img img{ 
+    position: relative;
+    width: 15rem;
+    border-radius: 50%;
+    
+}
+
+.projects {
+    margin-top: 4rem;
+    padding: 0 5%;
+
+  }
+  
+.projects h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    
+  }
+
+.project{
+    display: flex;
+    gap: 8rem;
+    justify-content: center;
+}
+
+.project-info h3{ 
+    margin: 0em;
+    margin-block: 1lh;
+}
+.project-image img{
+    border-radius: 5%;    
+    width: 25rem;
+}
+
+@media (max-width: 650px) {
+  .presentation {
+    gap: 2rem;
+    
+  }
+}
