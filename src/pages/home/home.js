@@ -39,6 +39,11 @@ function Home() {
             </div>
             <div className='project-info'>
               <h3>Consulta de saldo Gift Card Cencosud</h3>
+              <span>
+                Software para que las personas puedan consultar la 
+                informacion correspondiente
+                sus Gift Card de Cencosud
+              </span>
             </div>
           </article>
 
