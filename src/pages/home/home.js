@@ -6,7 +6,8 @@ import consultaGCImage from '../../assets/img/ConsultaGC.png';
 import consultaGCImage2 from '../../assets/img/descarga.PNG';
 import GitHubIcon from '../../shared/icons/GitHubIcon';
 import LinkedInIcon from '../../shared/icons/LinkedIn';
-
+import AngularIcon from '../../shared/icons/AngularIcon';
+import JavaIcon from '../../shared/icons/JavaIcon';
 function Home() {
 
   return (
@@ -44,6 +45,14 @@ function Home() {
                 informacion correspondiente
                 sus Gift Card de Cencosud
               </span>
+              <div className='Icons container'>
+                <a href='https://www.linkedin.com/in/ianbattistoni/' target='_blank' rel='noopener noreferrer'>
+                  <AngularIcon className='info-icon' />
+                </a>
+                <a href='https://www.linkedin.com/in/ianbattistoni/' target='_blank' rel='noopener noreferrer'>
+                  <JavaIcon className='info-icon' />
+                </a>
+              </div>
             </div>
           </article>
 
