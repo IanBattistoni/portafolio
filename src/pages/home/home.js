@@ -8,6 +8,7 @@ import GitHubIcon from '../../shared/icons/GitHubIcon';
 import LinkedInIcon from '../../shared/icons/LinkedIn';
 import AngularIcon from '../../shared/icons/AngularIcon';
 import JavaIcon from '../../shared/icons/JavaIcon';
+import NestIcon from '../../shared/icons/NestIcon';
 function Home() {
 
   return (
@@ -36,7 +37,9 @@ function Home() {
 
           <article className='project'>
             <div className='project-image'>
-              <img src={consultaGCImage} alt='Ian Battistoni' />
+              <a href='https://consulta.giftcard.cl' target='_blank' title='ir a la página'>
+                <img src={consultaGCImage} alt='Ian Battistoni' />
+              </a>
             </div>
             <div className='project-info'>
               <h3>Consulta de saldo Gift Card Cencosud</h3>
@@ -45,13 +48,16 @@ function Home() {
                 informacion correspondiente
                 sus Gift Card de Cencosud
               </span>
-              <div className='Icons container'>
-                <a href='https://www.linkedin.com/in/ianbattistoni/' target='_blank' rel='noopener noreferrer'>
+              <div className='icons-container'>
+                <span title='Angular'>
                   <AngularIcon className='info-icon' />
-                </a>
-                <a href='https://www.linkedin.com/in/ianbattistoni/' target='_blank' rel='noopener noreferrer'>
+                </span>
+                <span title='Java'>
                   <JavaIcon className='info-icon' />
-                </a>
+                </span>
+                <span title='Nest'>
+                  <NestIcon className='info-icon' />
+                </span>
               </div>
             </div>
           </article>

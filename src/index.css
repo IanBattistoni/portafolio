@@ -12,8 +12,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-
+span{
+  color: rgb(223,228,234);
+}
+h2{
+  color: rgb(223,228,234);
+}
+h3 { 
+  color: rgb(223,228,234);
+}
 .app {
   max-width: 1440px; 
   width: 100%; 
