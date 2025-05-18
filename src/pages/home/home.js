@@ -43,11 +43,11 @@ function Home() {
             </div>
             <div className='project-info'>
               <h3>Consulta de saldo Gift Card Cencosud</h3>
-              <span>
+              <p>
                 Software para que las personas puedan consultar la 
                 informacion correspondiente
                 sus Gift Card de Cencosud
-              </span>
+              </p>
               <div className='icons-container'>
                 <span title='Angular'>
                   <AngularIcon className='info-icon' />
@@ -84,6 +84,26 @@ function Home() {
           </article>
 
       </section>
+      <section className='experiences'>
+        <h2>
+          Experiencia
+        </h2>
+        <div className='experience-container'>
+          <div className='experience'>
+            <h3>Cencosud</h3>
+            <span>2024-2025</span>
+            <p>Rol:</p>
+            <p>Ingeniero de software</p>
+          </div>
+          <div className='experience'>
+            <h3>Exdev</h3>
+            <span>2018-2024</span>
+          </div>
+          
+        </div>
+      </section>
+
+      
     </section>
   );
 }

@@ -15,10 +15,15 @@ code {
 span{
   color: rgb(223,228,234);
 }
+p{
+  color: rgb(223,228,234);
+  
+}
 h2{
   color: rgb(223,228,234);
 }
 h3 { 
+  margin: 0;
   color: rgb(223,228,234);
 }
 .app {

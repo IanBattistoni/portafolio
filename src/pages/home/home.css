@@ -90,7 +90,7 @@
     transform: scale(1.02);        
     cursor: pointer;
     
-        outline: 2px solid #6a426a;
+        outline: 2px solid rgb(111, 78, 130);
         outline-offset: 4px;
     
   }
@@ -99,9 +99,49 @@
     gap: 0.5rem;  
     align-self: end;
     padding-right: 2rem;
-    margin-top: 0.5rem;
     
 }
+
+.experiences {
+    margin-top: 4rem;
+    
+
+  }
+
+.experiences h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    
+  }
+.experience-container{
+    display: flex;
+    flex-direction: column;
+
+    justify-self: center;
+
+}
+.experience{
+    position: relative;
+    border-left: 0.2rem solid rgb(223,228,234);
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;   
+ 
+}
+
+.experience::before {
+    content: '';
+    position: absolute;
+    top: 1.5rem; 
+    left: -0.55rem; 
+    width: 12px;
+    height: 12px;
+    background-color: rgb(111, 78, 130); 
+    border-radius: 50%;
+    border: 2px solid rgb(223,228,234); 
+  }
+
 @media (max-width: 650px) {
   .presentation {
     gap: 2rem;
