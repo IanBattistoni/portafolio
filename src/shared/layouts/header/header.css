@@ -1,7 +1,9 @@
 .header {
-    background-color: #f8f9fa;
+    background-color: rgb(18, 18, 18);
     padding: 10px;
     text-align: center;
+    height: 20px;
+    scroll-snap-align: start;
   }
 
   .container-header {

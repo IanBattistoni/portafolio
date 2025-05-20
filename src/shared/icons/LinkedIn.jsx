@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as LinkedInSVG } from '../../assets/svg/LinkedIn.svg';
+import { ReactComponent as LinkedInSVG } from '../../assets/svg/LinkedIn-svgrepo.svg';
 
 const LinkedInIcon = ({ color = 'white', size = 25, className = 'linkedin-icon' }) => {
   return (

@@ -12,7 +12,6 @@ root.render(
     <div className='app'>
       <App />
     </div>
-    <Footer />
   </React.StrictMode>
 );
 reportWebVitals();

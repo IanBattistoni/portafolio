@@ -9,6 +9,8 @@ import LinkedInIcon from '../../shared/icons/LinkedIn';
 import AngularIcon from '../../shared/icons/AngularIcon';
 import JavaIcon from '../../shared/icons/JavaIcon';
 import NestIcon from '../../shared/icons/NestIcon';
+import YoutubeIcon from '../../shared/icons/YoutubeIcon';
+import DownloadIcon from '../../shared/icons/DownloadIcon';
 function Home() {
 
   return (
@@ -24,6 +26,12 @@ function Home() {
             <a href='https://github.com/IanBattistoni' target='_blank' rel='noopener noreferrer'>
                 <GitHubIcon className='social-icon' />
               </a>
+              <a href='https://www.youtube.com/@IANBATTISTONI' target='_blank' rel='noopener noreferrer'>
+                <YoutubeIcon className='social-icon' />
+              </a>
+              <a href='https://github.com/IanBattistoni' title='Github' target='_blank' rel='noopener noreferrer'>
+                <DownloadIcon className='social-icon' />
+              </a>
           </div>
         </div>
         <div className='ian-img'>
@@ -33,7 +41,7 @@ function Home() {
 
       <section className='projects'>
 
-        <h2>Projects</h2>
+        <h2>Proyectos</h2>
 
           <article className='project'>
             <div className='project-image'>
@@ -61,7 +69,7 @@ function Home() {
               </div>
             </div>
           </article>
-
+          {/* ... 
           <article className='project'>
             <div className='project-image'></div>
             <div className='project-info'>
@@ -82,25 +90,43 @@ function Home() {
             <h3>Analisis de pdfs utilizando ia</h3>
             </div>
           </article>
-
+*/}
       </section>
+      
       <section className='experiences'>
         <h2>
           Experiencia
         </h2>
-        <div className='experience-container'>
-          <div className='experience'>
-            <h3>Cencosud</h3>
-            <span>2024-2025</span>
-            <p>Rol:</p>
-            <p>Ingeniero de software</p>
-          </div>
-          <div className='experience'>
-            <h3>Exdev</h3>
-            <span>2018-2024</span>
-          </div>
+        
+          <article className='experience'>
+            <div className='experience-summary'>
+              <h3>Cencosud</h3>
+              <span>2024-2025</span>
+            </div>
+            <div className='experience-details'>
+                <h3>Ingeniero de software</h3>
+                <span>Dando servicios para el area de Venta Empresas de Cencosud,
+                  area relacionada con los servicios de Gift Card.
+                </span>
+            </div>
+   
+            
+          </article>
+          <article className='experience'>
+            
+            <div className='experience-summary'>
+              <h3>Exdev</h3>
+              <span>2018-2024</span>
+            </div>
+            <div className='experience-details'>
+                <h3>Ingeniero de software</h3>
+                <span>Club universitario centrado en el desarrollo experimental, 
+                  donde colaboro en la concepción y ejecución de ideas innovadoras.
+                </span>
+            </div>
+          </article>
           
-        </div>
+        
       </section>
 
       
