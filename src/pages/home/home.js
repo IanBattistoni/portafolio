@@ -11,6 +11,7 @@ import JavaIcon from '../../shared/icons/JavaIcon';
 import NestIcon from '../../shared/icons/NestIcon';
 import YoutubeIcon from '../../shared/icons/YoutubeIcon';
 import DownloadIcon from '../../shared/icons/DownloadIcon';
+import PostgresSQLIcon from '../../shared/icons/PostgresSQLIcon';
 function Home() {
 
   return (
@@ -45,7 +46,7 @@ function Home() {
 
           <article className='project'>
             <div className='project-image'>
-              <a href='https://consulta.giftcard.cl' target='_blank' title='ir a la página'>
+              <a href='https://consulta.giftcard.cl' target='_blank' title='ir al sitio'>
                 <img src={consultaGCImage} alt='Ian Battistoni' />
               </a>
             </div>
@@ -65,6 +66,9 @@ function Home() {
                 </span>
                 <span title='Nest'>
                   <NestIcon className='info-icon' />
+                </span>
+                <span title='PostgresSQL'>
+                  <PostgresSQLIcon className='info-icon' />
                 </span>
               </div>
             </div>
@@ -101,13 +105,13 @@ function Home() {
           <article className='experience'>
             <div className='experience-summary'>
               <h3>Cencosud</h3>
-              <span>2024-2025</span>
+              <time>2024-2025</time>
             </div>
             <div className='experience-details'>
                 <h3>Ingeniero de software</h3>
-                <span>Dando servicios para el area de Venta Empresas de Cencosud,
+                <p>Dando servicios para el area de Venta Empresas de Cencosud,
                   area relacionada con los servicios de Gift Card.
-                </span>
+                </p>
             </div>
    
             
@@ -116,13 +120,13 @@ function Home() {
             
             <div className='experience-summary'>
               <h3>Exdev</h3>
-              <span>2018-2024</span>
+              <time>2018-2024</time>
             </div>
             <div className='experience-details'>
                 <h3>Ingeniero de software</h3>
-                <span>Club universitario centrado en el desarrollo experimental, 
+                <p>Club universitario centrado en el desarrollo experimental, 
                   donde colaboro en la concepción y ejecución de ideas innovadoras.
-                </span>
+                </p>
             </div>
           </article>
           
