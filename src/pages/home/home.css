@@ -4,10 +4,13 @@
     grid-template-rows: auto 1fr auto;
     
 }
-
+.presentation,
 .projects,
 .experiences {
   scroll-snap-align: start;
+}
+.experience{
+    scroll-snap-align: end;
 }
 .presentation{
     
