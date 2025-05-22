@@ -31,6 +31,10 @@ h3 {
   margin: 0;
   color: rgb(223,228,234);
 }
+h4{
+  color: rgb(223,228,234);
+  margin: 0;
+}
 time{ 
   color: rgb(223,228,234);
   display: block;

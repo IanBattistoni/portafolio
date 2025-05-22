@@ -12,6 +12,11 @@ import NestIcon from '../../shared/icons/NestIcon';
 import YoutubeIcon from '../../shared/icons/YoutubeIcon';
 import DownloadIcon from '../../shared/icons/DownloadIcon';
 import PostgresSQLIcon from '../../shared/icons/PostgresSQLIcon';
+
+import insignia from '../../assets/img/Insignia_IN.webp';
+import utemIMG from '../../assets/img/utemIMG.webp';
+
+
 function Home() {
 
   return (
@@ -128,6 +133,41 @@ function Home() {
                   donde colaboro en la concepción y ejecución de ideas innovadoras.
                 </p>
             </div>
+          </article>
+          
+        
+      </section>
+
+
+      <section className='studies'>
+        <h2>
+          Estudios
+        </h2>
+                            
+          
+          <article className='study'>
+            <div className='studyIMG'>
+              <img src={utemIMG} alt='utem' />
+            </div>
+            
+            <div className='study-summary'>
+              <h3>Universidad Tecnológica Metropolitana</h3>
+              <h4>Ingeniería Civil en Computación mención Informática</h4>
+              <time>2019-2024</time>
+            </div>
+
+   
+            
+          </article>
+          <article className='study'>
+            <div className='studyIMG'>
+              <img src={insignia} alt="Insignia" />
+            </div>
+            <div className='study-summary'>
+              <h3>Instituto Nacional</h3>
+              <time>2012-2017</time>
+            </div>
+ 
           </article>
           
         

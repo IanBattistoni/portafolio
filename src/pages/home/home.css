@@ -99,6 +99,7 @@
 .projects {
     margin-top: 4rem;
     padding: 0 5%;
+    margin-bottom: 5rem;
    
 
   }
@@ -157,8 +158,7 @@
 }
 
 .experiences {
-    margin-top: 4rem;
-    
+    margin-bottom: 5rem;
 
   }
 
@@ -194,7 +194,33 @@
     border: 2px solid rgb(223,228,234); 
   }
 
-@media (max-width: 650px) {
+    
+  .studies h2{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        
+  }
+
+  .studyIMG img{
+    height: 100px;
+    
+    
+  }
+  .study{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2rem;
+    position: relative;
+    padding-bottom: 2rem;
+    
+    max-width: 550px;
+    align-items: center;
+    margin: 0 auto;
+    
+  }
+
+@media (min-width: 650px) {
   .presentation {
     gap: 2rem;
   }
@@ -202,7 +228,12 @@
     gap: 2rem;
   }
 }
-
+@media(min-height:1100px){
+  .presentation{
+     min-height: max-content;
+     height: 1100px;
+  }
+}
 @media(max-width: 600px){
     .presentation{
         flex-direction: column;
