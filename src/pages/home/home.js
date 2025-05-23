@@ -173,6 +173,29 @@ function Home() {
         
       </section>
 
+      <section className='technologies'>
+        <h2>
+          Tecnologías
+        </h2>
+        <div className='carousel'>
+          <div className='image-container'>
+                <span title='Angular'>
+                  <AngularIcon className='info-icon' />
+                </span>
+                <span title='Java'>
+                  <JavaIcon className='info-icon' />
+                </span>
+                <span title='Nest'>
+                  <NestIcon className='info-icon' />
+                </span>
+                <span title='PostgresSQL'>
+                  <PostgresSQLIcon className='info-icon' />
+                </span>
+                
+          </div>
+        </div>
+      </section>
+
       
     </section>
   );
