@@ -133,6 +133,7 @@
     justify-self: end;
     border-radius: 2.5%;    
     width: 100%;
+    max-width: 800px;
     object-fit: cover;
     overflow: hidden;
     transition: box-shadow 0.3s ease, transform 0.2s ease;
@@ -195,11 +196,92 @@
   }
 
     
-  .studies h2{
+  
+
+.technologies h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.technologies{
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 5rem;
+}
+.carousel {
+  
+  overflow: hidden;
+  width: 100dvw;
+  max-width: 1400px;
+  
+  
+}
+
+.image-container {
+  display: flex;
+  justify-items: stretch;
+  width: max-content; 
+  animation: scroll 12s linear infinite;
+  gap: 0.5rem;
+  
+}
+.carousel:hover .image-container {
+  animation-play-state: paused;
+}
+
+.social-icon {
+  color: rgb(230,230,230); 
+  width: 25px;
+  height: 25px;
+}
+
+.info-icon {
+  color: rgb(230,230,230); 
+  width: 25px;
+  height: 25px;
+}
+.skill-card h4{
+  font-size: 1rem;
+}
+.skill-card{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgba(90, 74, 105, 0.484); 
+  padding: 2rem;
+  border-radius: 10%;
+  background-color: rgba(35, 31, 31, 0.84);
+  width: 100px;
+  
+
+}
+
+.skill-icon {
+  color: rgb(230,230,230); 
+  width: 50px;
+  height: 50px;
+  padding-bottom: 1rem;
+  
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+.studies h2{
         text-align: center;
         font-size: 2rem;
         margin-bottom: 3rem;
         
+  }
+
+  .studies{
+    margin-bottom: 5rem;
   }
 
   .studyIMG img{
@@ -219,40 +301,6 @@
     margin: 0 auto;
     
   }
-
-.technologies{
-        text-align: center;
-        font-size: 2rem;
-        margin-bottom: 3rem;
-}
-.carousel {
-  display: flex;
-  justify-content: end;
-  overflow: hidden;
-  width: 100%;
-
-}
-
-.image-container {
-  display: flex;
-  justify-items: stretch;
-  animation: scroll 12s linear infinite;
-  gap: 8rem;
-}
-.carousel:hover .image-container {
-  animation-play-state: paused;
-}
-
-.social-icon {
-  color: rgb(230,230,230); 
-  width: 25px;
-  height: 25px;
-}
-@keyframes scroll {
-  to{
-    translate: calc(-4*250px)
-  }
-}
 
 @media(min-height:1100px){
   .presentation{

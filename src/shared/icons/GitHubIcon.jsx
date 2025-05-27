@@ -5,7 +5,7 @@ const GitHubIcon = ({ color = 'rgb(230,230,230)', size = 25, className = 'github
   return (
     <GitHubSVG
       className={className}
-      style={{ color, width: size, height: size }}
+      style={{  }}
     />
   );
 };

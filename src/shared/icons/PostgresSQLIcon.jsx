@@ -5,7 +5,7 @@ const PostgresSQLIcon = ({ color = 'rgb(230,230,230)', size = 25, className = 'P
   return (
     <PostgresSQLSVG
       className={className}
-      style={{ color, width: size, height: size }}
+      style={{  }}
     />
   );
 };

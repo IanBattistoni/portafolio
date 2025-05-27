@@ -12,6 +12,14 @@ import NestIcon from '../../shared/icons/NestIcon';
 import YoutubeIcon from '../../shared/icons/YoutubeIcon';
 import DownloadIcon from '../../shared/icons/DownloadIcon';
 import PostgresSQLIcon from '../../shared/icons/PostgresSQLIcon';
+import ExpressIcon from '../../shared/icons/ExpressIcon';
+import ReactIcon from '../../shared/icons/ReactIcon';
+import JavaScriptIcon from '../../shared/icons/JavaScriptIcon';
+import NodeIcon from '../../shared/icons/NodeIcon';
+import MySQLIcon from '../../shared/icons/MySQLIcon';
+import TypeScriptIcon from '../../shared/icons/TypeScriptIcon';
+import PythonIcon from '../../shared/icons/PythonIcon';
+
 
 import insignia from '../../assets/img/Insignia_IN.webp';
 import utemIMG from '../../assets/img/utemIMG.webp';
@@ -139,6 +147,179 @@ function Home() {
       </section>
 
 
+      
+
+      <section className='technologies'>
+        <h2>
+          Tecnologías
+        </h2>
+        <div className='carousel'>
+          <div className='image-container'>
+                <div className='skill-card'> 
+                  <span title='Angular'>
+                    <AngularIcon className='skill-icon' />
+                  </span>
+                  <h4>Angular</h4>
+                </div>
+                <div className='skill-card'> 
+                  <span title='React'>
+                    <ReactIcon className='skill-icon' />
+                  </span>
+                  <h4>React</h4>
+                </div>
+                <div className='skill-card'> 
+                  <span title='Nest'>
+                  <NestIcon className='skill-icon' />
+                  </span>
+                  <h4>NestJS</h4>
+                </div>
+                <div className='skill-card'> 
+                  <span title='ExpressIcon'>
+                  <ExpressIcon className='skill-icon' />
+                </span>
+                  <h4>ExpressJS</h4>
+                </div>
+                <div className='skill-card'> 
+                  <span title='JavaScript'>
+                  <JavaScriptIcon className='skill-icon' />
+                  </span>
+                  <h4>JavaScript</h4>
+                </div>
+                <div className='skill-card'> 
+                  <span title='TypeScript'>
+                  <TypeScriptIcon className='skill-icon' />
+                  </span>
+                  <h4>TypeScript</h4>
+                </div>
+                <div className='skill-card'> 
+                  <span title='Python'>
+                  <PythonIcon className='skill-icon' />
+                  </span>
+                  <h4>Python</h4>
+                </div>
+                <div className='skill-card'> 
+                  <span title='Java'>
+                  <JavaIcon className='skill-icon' />
+                  </span>
+                  <h4>Java</h4>
+                </div>
+                
+                <div className='skill-card'> 
+                  <span title='PostgresSQL'>
+                  <PostgresSQLIcon className='skill-icon' />
+                </span>
+                  <h4>PostgresSQL</h4>
+                </div>
+         
+                <div className='skill-card'> 
+                  <span title='MySQL'>
+                  <MySQLIcon className='skill-icon' />
+                </span>
+                  <h4>MySQL</h4>
+                </div>
+                <div className='skill-card'> 
+                  <span title='NodejsL'>
+                  <NodeIcon className='skill-icon' />
+                </span>
+                  <h4>NodeJS</h4>
+                </div>
+
+                <div className='skill-card'> 
+                  <span title='Angular'>
+                    <AngularIcon className='skill-icon' />
+                  </span>
+                  <h4>Angular</h4>
+                </div>
+                <div className='skill-card'> 
+                  <span title='React'>
+                    <ReactIcon className='skill-icon' />
+                  </span>
+                  <h4>React</h4>
+                </div>
+                <div className='skill-card'> 
+                  <span title='Nest'>
+                  <NestIcon className='skill-icon' />
+                  </span>
+                  <h4>NestJS</h4>
+                </div>
+                <div className='skill-card'> 
+                  <span title='ExpressIcon'>
+                  <ExpressIcon className='skill-icon' />
+                </span>
+                  <h4>ExpressJS</h4>
+                </div>
+                <div className='skill-card'> 
+                  <span title='JavaScript'>
+                  <JavaScriptIcon className='skill-icon' />
+                  </span>
+                  <h4>JavaScript</h4>
+                </div>
+                <div className='skill-card'> 
+                  <span title='TypeScript'>
+                  <TypeScriptIcon className='skill-icon' />
+                  </span>
+                  <h4>TypeScript</h4>
+                </div>
+                <div className='skill-card'> 
+                  <span title='Python'>
+                  <PythonIcon className='skill-icon' />
+                  </span>
+                  <h4>Python</h4>
+                </div>
+                <div className='skill-card'> 
+                  <span title='Java'>
+                  <JavaIcon className='skill-icon' />
+                  </span>
+                  <h4>Java</h4>
+                </div>
+                
+                <div className='skill-card'> 
+                  <span title='PostgresSQL'>
+                  <PostgresSQLIcon className='skill-icon' />
+                </span>
+                  <h4>PostgresSQL</h4>
+                </div>
+         
+                <div className='skill-card'> 
+                  <span title='MySQL'>
+                  <MySQLIcon className='skill-icon' />
+                </span>
+                  <h4>MySQL</h4>
+                </div>
+                <div className='skill-card'> 
+                  <span title='NodejsL'>
+                  <NodeIcon className='skill-icon' />
+                </span>
+                  <h4>NodeJS</h4>
+                </div>
+
+                
+                
+
+
+                
+
+   
+                
+          </div>
+        </div>
+      </section>
+      {/*
+      <section className='technologies'>
+            <h2>
+              Herramientas
+            </h2>
+            <div className='carousel'>
+              <div className='image-container'>
+                  <div className='skill-card'>
+
+                  </div>
+
+              </div>
+              
+            </div>
+      </section>
+      */}
       <section className='studies'>
         <h2>
           Estudios
@@ -172,30 +353,6 @@ function Home() {
           
         
       </section>
-
-      <section className='technologies'>
-        <h2>
-          Tecnologías
-        </h2>
-        <div className='carousel'>
-          <div className='image-container'>
-                <span title='Angular'>
-                  <AngularIcon className='info-icon' />
-                </span>
-                <span title='Java'>
-                  <JavaIcon className='info-icon' />
-                </span>
-                <span title='Nest'>
-                  <NestIcon className='info-icon' />
-                </span>
-                <span title='PostgresSQL'>
-                  <PostgresSQLIcon className='info-icon' />
-                </span>
-                
-          </div>
-        </div>
-      </section>
-
       
     </section>
   );

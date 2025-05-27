@@ -5,7 +5,7 @@ const LinkedInIcon = ({ color = 'rgb(230,230,230)', size = 25, className = 'link
   return (
     <LinkedInSVG
       className={className}
-      style={{ color, width: size, height: size }}
+      style={{  }}
     />
   );
 };

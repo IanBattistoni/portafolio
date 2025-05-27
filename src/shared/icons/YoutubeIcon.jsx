@@ -5,7 +5,7 @@ const YoutubeIcon = ({ color = 'rgb(230,230,230)', size = 25, className = 'Youtu
   return (
     <YoutubeSVG
       className={className}
-      style={{ color, width: size, height: size }}
+      style={{   }}
     />
   );
 };

@@ -5,7 +5,7 @@ const NestIcon = ({ color = 'rgb(230,230,230)', size = 25, className = 'Nest-ico
   return (
     <NestSVG
       className={className}
-      style={{ color, width: size, height: size }}
+      style={{  }}
     />
   );
 };

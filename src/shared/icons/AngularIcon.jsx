@@ -5,7 +5,7 @@ const AngularIcon = ({ color = 'rgb(230,230,230)', size = 25, className = 'Angul
   return (
     <AngularSVG
       className={className}
-      style={{ color, width: size, height: size }}
+      style={{  }}
     />
   );
 };

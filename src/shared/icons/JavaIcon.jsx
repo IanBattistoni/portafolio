@@ -5,7 +5,7 @@ const JavaIcon = ({ color = 'rgb(230,230,230)', size = 25, className = 'Java-ico
   return (
     <JavaSVG
       className={className}
-      style={{ color, width: size, height: size }}
+      style={{  }}
     />
   );
 };
