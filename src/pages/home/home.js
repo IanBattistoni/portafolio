@@ -53,7 +53,7 @@ function Home() {
         </div>
       </section>
 
-      <section className='projects'>
+      <section id='projects' className='projects'>
 
         <h2>Proyectos</h2>
 
@@ -110,7 +110,7 @@ function Home() {
 */}
       </section>
       
-      <section className='experiences'>
+      <section id='experiences' className='experiences'>
         <h2>
           Experiencia
         </h2>
@@ -149,7 +149,7 @@ function Home() {
 
       
 
-      <section className='technologies'>
+      <section id='stack' className='technologies'>
         <h2>
           Tecnologías
         </h2>
