@@ -1,16 +1,42 @@
 .header {
-    background-color: rgb(18, 18, 18);
+    background-color: none;
     padding: 10px;
     text-align: center;
     height: 20px;
     scroll-snap-align: start;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
   }
 
+  a{
+    text-decoration: none; 
+    color: rgb(230,230,230);  
+  }
+
+  
   .container-header {
+    
     display: flex;
     justify-content: center; 
     align-items: center; 
     gap: 5vw;
-    max-width: 1440px;
+    width: 100%;
+    max-width: 400px;
+    
+    border-radius: 999px;
     margin: 0 auto;
+    padding: 0.5rem 1rem;
+
+    
+  }
+
+  .container-header.scrolled { 
+    background-color: rgb(28, 26, 26);
+    z-index: 1000;
+    border: 2px solid rgb(36, 31, 31);
+  }
+
+  .container-header a:hover{
+    color: rgb(160, 110, 200); 
   }
