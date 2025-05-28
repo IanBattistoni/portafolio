@@ -26,7 +26,7 @@
 .presentation h1{
     font-size: 2rem;
     color: rgb(95, 9, 95);
-    color: rgb(93, 41, 124);
+    color: rgb(111, 78, 130);
     margin: 0;
 }
 
@@ -39,6 +39,7 @@
     padding-top: 1rem;
     display: flex;
     gap: 1rem;
+    height: 25px;
     
 }
 
@@ -51,7 +52,30 @@
     border-radius: 50%;
     outline-offset: 4px;
   }
+.cv-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  
+  border-radius: 999px;
+  background-color: rgb(111, 78, 130);
+  padding: 0.1rem 0.5rem;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 0.5rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
 
+.cv-button:hover {
+  
+  transform: translateY(-2px);
+}
+.cv-icon{
+  padding-top: 1px;
+  width: 15px;
+  height: 15px;
+}
 
 .ian-img{ 
     border-radius: 50%;

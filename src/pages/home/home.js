@@ -43,8 +43,9 @@ function Home() {
               <a href='https://www.youtube.com/@IANBATTISTONI' target='_blank' rel='noopener noreferrer'>
                 <YoutubeIcon className='social-icon' />
               </a>
-              <a href='https://github.com/IanBattistoni' title='Github' target='_blank' rel='noopener noreferrer'>
-                <DownloadIcon className='social-icon' />
+              <a href='https://github.com/IanBattistoni' className='cv-button' title='Github' target='_blank' rel='noopener noreferrer'>
+                Descargar CV
+                <DownloadIcon className='cv-icon' />
               </a>
           </div>
         </div>
