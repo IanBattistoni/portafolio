@@ -23,7 +23,7 @@ import PythonIcon from '../../shared/icons/PythonIcon';
 
 import insignia from '../../assets/img/Insignia_IN.webp';
 import utemIMG from '../../assets/img/utemIMG.webp';
-
+import feria2img from '../../assets/img/Feria2img.webp';
 
 function Home() {
 
@@ -148,11 +148,23 @@ function Home() {
       </section>
 
 
-      
+      <section id='about' className='about-me'>
+            <h2>
+              Sobre mí
+            </h2>
+            <article className='about-container'>
+              <p>
+                Ingeniero de software de 25 años titulado en Ingeniería Civil en Computación con mención en Informática por la Universidad Tecnológica Metropolitana (UTEM). Tengo experiencia en desarrollo full stack de soluciones web utilizando tecnologías como Angular, React, NestJS, Java, Python, NodeJS y PostgreSQL.
+              </p>
+              <div className='about-carousel'>
+                <img src={feria2img} alt='Ian Battistoni' />
+              </div>
+            </article>
+      </section>
 
       <section id='stack' className='technologies'>
         <h2>
-          Tecnologías
+          Habilidades
         </h2>
         <div className='carousel'>
           <div className='image-container'>

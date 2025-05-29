@@ -18,7 +18,7 @@ function Header() {
       <nav className={`container-header ${scrolled ? 'scrolled' : ''}`}>
         <a href='#projects'  title='Ir a proyectos'>Proyectos</a>
         <a href='#experiences' title='Ir al inicio'>Experiencia</a>
-        <a href='#stack' title='Sobre nosotros'>Sobre mí</a>
+        <a href='#about' title='Sobre nosotros'>Sobre mí</a>
       </nav>
     </header>
   );
