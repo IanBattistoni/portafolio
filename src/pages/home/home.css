@@ -224,20 +224,116 @@
     font-size: 2rem;
     margin-bottom: 3rem;
 }
+.about-me p {
+  margin: 0;
+}
 .about-me{
   justify-items: center;
   margin-bottom: 5rem;
 }
   
 .about-container{
-  max-width: 400px;
+  
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  gap: 8rem;
+  
 }
-.about-carousel img{
-
+.about-slider{
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  width: 300px;
   height: 300px;
-  width: 500px;
-  object-fit: cover;
+  
 }
+.slider{
+  
+  display: flex;
+  aspect-ratio: 100%;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  overflow: hidden;
+  scroll-snap-align: start;
+  gap: 1rem;
+}
+
+
+.slider img{
+  
+  flex: 1 0 100%;
+  
+  border-radius: 5%;
+  height: 300px;
+  width: 300px;
+  scroll-snap-align: start;
+  object-fit: cover;
+ 
+  
+}
+.slider-nav { 
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.slider-nav button {
+  all: unset; 
+  width: 0.5rem;
+  height: 0.5rem;
+  
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(230,230,230);
+  opacity: 0.75;
+  cursor: pointer;
+  transition: opacity 250ms ease;
+  
+}
+
+.slider-nav button::before {
+  content: '';
+  position: absolute;
+  
+  top: -0.8rem;
+  transform: translateX(-5px);
+  width: 1.2rem;
+  height: 2rem;
+ 
+}
+.slider-nav button:hover {
+  opacity: 1;
+}
+
+.Defensa-tesisIMG{
+  
+}
+.Feria-exdev1IMG {
+  object-position: left;
+}
+
+.Feria-exdev2IMG {
+  object-position: -40px;
+}
+
+@media (max-width: 825px) {
+  .about-container{
+    flex-direction: column;
+  }
+  .slider img{
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+
 .technologies h2{
     text-align: center;
     font-size: 2rem;

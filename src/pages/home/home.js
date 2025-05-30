@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect, useRef, useState } from 'react';
 import './home.css';
 //assets
 import ianImage from '../../assets/img/ian-img6.JPG';
@@ -24,8 +25,37 @@ import PythonIcon from '../../shared/icons/PythonIcon';
 import insignia from '../../assets/img/Insignia_IN.webp';
 import utemIMG from '../../assets/img/utemIMG.webp';
 import feria2img from '../../assets/img/Feria2img.webp';
+import tesisimg from  '../../assets/img/dfensa-tesis-img.jpg';
+import arduinoimg from '../../assets/img/Arduinoimg.webp'
+
+
 
 function Home() {
+
+  const sliderRef = useRef(null);
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const totalSlides = 3;
+
+  const scrollToSlide = (index) => {
+    const slider = sliderRef.current;
+    if (slider && slider.children[index]) {
+      const slide = slider.children[index];
+      slider.scrollTo({
+        left: slide.offsetLeft,
+        behavior: 'smooth',
+      });
+      setCurrentSlide(index);
+    }
+  };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const nextIndex = (currentSlide + 1) % totalSlides;
+      scrollToSlide(nextIndex);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [currentSlide]);
 
   return (
     <section className='home-page'>
@@ -156,8 +186,17 @@ function Home() {
               <p>
                 Ingeniero de software de 25 años titulado en Ingeniería Civil en Computación con mención en Informática por la Universidad Tecnológica Metropolitana (UTEM). Tengo experiencia en desarrollo full stack de soluciones web utilizando tecnologías como Angular, React, NestJS, Java, Python, NodeJS y PostgreSQL.
               </p>
-              <div className='about-carousel'>
-                <img src={feria2img} alt='Ian Battistoni' />
+              <div className='about-slider'>
+                <div className='slider' ref={sliderRef}>
+                  <img id='slide-1' className='Defensa-tesisIMG' src={tesisimg} alt='Defensa de tesis'/>
+                  <img id='slide-2' className='Feria-exdev1IMG' src={arduinoimg} alt='Feria exdev' />
+                  <img id='slide-3' className='Feria-exdev2IMG' src={feria2img} alt='Feria exdev2' />
+                </div>
+                <div className='slider-nav'>
+                  <button onClick={() => scrollToSlide(0)}></button>
+                  <button onClick={() => scrollToSlide(1)}></button>
+                  <button onClick={() => scrollToSlide(2)}></button>
+                </div>
               </div>
             </article>
       </section>
