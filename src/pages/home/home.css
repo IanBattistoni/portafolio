@@ -479,3 +479,10 @@
         opacity: 0;
       }
 }
+
+
+#projects,
+#experiences,
+#about {
+  scroll-margin-top: 50px; /* ajusta según el alto real de tu header */
+}
