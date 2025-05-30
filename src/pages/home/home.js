@@ -2,9 +2,9 @@ import React from 'react';
 import { useEffect, useRef, useState } from 'react';
 import './home.css';
 //assets
-import ianImage from '../../assets/img/ian-img6.JPG';
+import ianImage from '../../assets/img/ian-img-presentation.jpg';
 import consultaGCImage from '../../assets/img/ConsultaGC.png';
-import consultaGCImage2 from '../../assets/img/descarga.PNG';
+
 import GitHubIcon from '../../shared/icons/GitHubIcon';
 import LinkedInIcon from '../../shared/icons/LinkedIn';
 import AngularIcon from '../../shared/icons/AngularIcon';
@@ -22,11 +22,12 @@ import TypeScriptIcon from '../../shared/icons/TypeScriptIcon';
 import PythonIcon from '../../shared/icons/PythonIcon';
 
 
-import insignia from '../../assets/img/Insignia_IN.webp';
-import utemIMG from '../../assets/img/utemIMG.webp';
-import feria2img from '../../assets/img/Feria2img.webp';
+import insignia from '../../assets/img/in-insignia.webp';
+import utemIMG from '../../assets/img/utem-insignia.webp';
+
+import feria2img from '../../assets/img/feria-exdev-img.webp';
 import tesisimg from  '../../assets/img/dfensa-tesis-img.jpg';
-import arduinoimg from '../../assets/img/Arduinoimg.webp'
+import arduinoimg from '../../assets/img/arduino-img.webp'
 
 
 
