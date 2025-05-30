@@ -22,12 +22,12 @@ import TypeScriptIcon from '../../shared/icons/TypeScriptIcon';
 import PythonIcon from '../../shared/icons/PythonIcon';
 
 
-import ininsignia from '../../assets/img/in-insignia.webp';
-import utemimg from '../../assets/img/utem-insignia.webp';
+import ininsignia from '../../assets/img/insignia-in3.webp';
+import utemimg from '../../assets/img/utem-insignia2.webp';
 
-import feria2img from '../../assets/img/feria-exdev-img.webp';
+import feria2img from '../../assets/img/feria-exdev-img3.webp';
 import tesisimg from  '../../assets/img/dfensa-tesis-img.jpg';
-import arduinoimg from '../../assets/img/arduino-img.webp';
+import arduinoimg from '../../assets/img/arduinoimg2.webp';
 
 
 
