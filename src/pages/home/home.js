@@ -22,8 +22,8 @@ import TypeScriptIcon from '../../shared/icons/TypeScriptIcon';
 import PythonIcon from '../../shared/icons/PythonIcon';
 
 
-import insignia from '../../assets/img/in-insignia.webp';
-import utemIMG from '../../assets/img/utem-insignia.webp';
+import ininsignia from '../../assets/img/in-insignia.webp';
+import utemimg from '../../assets/img/utem-insignia.webp';
 
 import feria2img from '../../assets/img/feria-exdev-img.webp';
 import tesisimg from  '../../assets/img/dfensa-tesis-img.jpg';
@@ -91,7 +91,7 @@ function Home() {
 
           <article className='project'>
             <div className='project-image'>
-              <a href='https://consulta.giftcard.cl' target='_blank' title='ir al sitio'>
+              <a href='https://consulta.giftcard.cl' title='ir al sitio'>
                 <img src={consultaGCImage} alt='Ian Battistoni' />
               </a>
             </div>
@@ -381,7 +381,7 @@ function Home() {
           
           <article className='study'>
             <div className='studyIMG'>
-              <img src={utemIMG} alt='utem' />
+              <img src={utemimg} alt='utem' />
             </div>
             
             <div className='study-summary'>
@@ -395,7 +395,7 @@ function Home() {
           </article>
           <article className='study'>
             <div className='studyIMG'>
-              <img src={insignia} alt="Insignia" />
+              <img src={ininsignia} alt="insignia" />
             </div>
             <div className='study-summary'>
               <h3>Instituto Nacional</h3>
