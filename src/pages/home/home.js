@@ -27,7 +27,7 @@ import utemIMG from '../../assets/img/utem-insignia.webp';
 
 import feria2img from '../../assets/img/feria-exdev-img.webp';
 import tesisimg from  '../../assets/img/dfensa-tesis-img.jpg';
-import arduinoimg from '../../assets/img/arduino-img.webp'
+import arduinoimg from '../../assets/img/arduino-img.webp';
 
 
 
