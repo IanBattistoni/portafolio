@@ -19,6 +19,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ul{
+  color: rgb(223,228,234);
+}
 span{
   color: rgb(223,228,234);
 }

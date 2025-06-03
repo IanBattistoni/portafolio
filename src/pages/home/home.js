@@ -98,9 +98,10 @@ function Home() {
             <div className='project-info'>
               <h3>Consulta de saldo Gift Card Cencosud</h3>
               <p>
-                Software para que las personas puedan consultar la 
-                informacion correspondiente
-                sus Gift Card de Cencosud
+                Software desarrollado para Cencosud que permite a los usuarios consultar el saldo 
+                y la información asociada a sus Gift Card. El sistema fue concebido como parte de una modernización tecnológica, 
+                migrando desde plataformas obsoletas hacia tecnologías actuales como Angular y NestJS, 
+                mejorando significativamente la experiencia del usuario, la escalabilidad y el mantenimiento de la plataforma.
               </p>
               <div className='icons-container'>
                 <span title='Angular'>
@@ -154,9 +155,16 @@ function Home() {
             </div>
             <div className='experience-details'>
                 <h3>Ingeniero de software</h3>
-                <p>Dando servicios para el area de Venta Empresas de Cencosud,
-                  area relacionada con los servicios de Gift Card.
+                <p>Prestando servicios para el área de Venta Empresas de Cencosud,
+                   relacionada con los servicios de Gift Card. Realizando funciones tales como:
                 </p>
+                <ul>
+                  <li>Desarrollo y mantenimiento de la plataforma de consulta de saldo de Gift Card utilizando Angular.</li>
+                  <li>Modernización de sistemas antiguos en Java 1.4 mediante tecnologías modernas como Angular y NestJS.</li>
+                  <li>Desarrollo de productos internos para el área de Gift Card utilizando Angular y NestJS, integrando nuevas funcionalidades a servicios existentes.</li>
+                  <li>Soporte y mantenimiento de infraestructura Java.</li>
+                  <li>Trabajo bajo metodología Scrum, gestionando tareas mediante Jira.</li>
+                </ul>
             </div>
    
             
