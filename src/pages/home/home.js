@@ -99,9 +99,9 @@ function Home() {
               <h3>Consulta de saldo Gift Card Cencosud</h3>
               <p>
                 Software desarrollado para Cencosud que permite a los usuarios consultar el saldo 
-                y la información asociada a sus Gift Card. El sistema fue concebido como parte de una modernización tecnológica, 
-                migrando desde plataformas obsoletas hacia tecnologías actuales como Angular y NestJS, 
-                mejorando significativamente la experiencia del usuario, la escalabilidad y el mantenimiento de la plataforma.
+  y la información asociada a sus Gift Cards. La solución fue diseñada como parte de un proceso de modernización tecnológica, 
+  reemplazando el uso de tecnologías obsoletas mediante la implementación de Angular y NestJS, 
+  lo que permitió mejorar la experiencia de usuario, la escalabilidad y el mantenimiento del sistema.
               </p>
               <div className='icons-container'>
                 <span title='Angular'>
