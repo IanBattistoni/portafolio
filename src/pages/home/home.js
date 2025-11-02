@@ -4,7 +4,7 @@ import './home.css';
 //assets
 import ianImage from '../../assets/img/ian-img-presentation.jpg';
 import consultaGCImage from '../../assets/img/ConsultaGC.png';
-
+import exdevWebsiteIMG from '../../assets/img/Exdev-website.webp'
 import GitHubIcon from '../../shared/icons/GitHubIcon';
 import LinkedInIcon from '../../shared/icons/LinkedIn';
 import AngularIcon from '../../shared/icons/AngularIcon';
@@ -91,7 +91,7 @@ function Home() {
 
           <article className='project'>
             <div className='project-image'>
-              <a href='https://consulta.giftcard.cl' title='ir al sitio'>
+              <a href='https://consulta.giftcard.cl' title='ir al sitio' target='_blank' rel='noopener noreferrer'>
                 <img src={consultaGCImage} alt='Ian Battistoni' />
               </a>
             </div>
@@ -99,9 +99,9 @@ function Home() {
               <h3>Consulta de saldo Gift Card Cencosud</h3>
               <p>
                 Software desarrollado para Cencosud que permite a los usuarios consultar el saldo 
-  y la información asociada a sus Gift Cards. La solución fue diseñada como parte de un proceso de modernización tecnológica, 
-  reemplazando el uso de tecnologías obsoletas mediante la implementación de Angular y NestJS, 
-  lo que permitió mejorar la experiencia de usuario, la escalabilidad y el mantenimiento del sistema.
+                y la información asociada a sus Gift Cards. La solución fue diseñada como parte de un proceso de modernización tecnológica, 
+                reemplazando el uso de tecnologías obsoletas mediante la implementación de Angular y NestJS, 
+                lo que permitió mejorar la experiencia de usuario, la escalabilidad y el mantenimiento del sistema.
               </p>
               <div className='icons-container'>
                 <span title='Angular'>
@@ -109,6 +109,35 @@ function Home() {
                 </span>
                 <span title='Java'>
                   <JavaIcon className='info-icon' />
+                </span>
+                <span title='Nest'>
+                  <NestIcon className='info-icon' />
+                </span>
+                <span title='PostgresSQL'>
+                  <PostgresSQLIcon className='info-icon' />
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <article className='project'>
+            <div className='project-image'>
+              <a href='https://exdev.cl' title='ir al sitio' target='_blank' rel='noopener noreferrer'>
+                <img src={exdevWebsiteIMG} alt='Ian Battistoni' />
+              </a>
+            </div>
+            <div className='project-info'>
+              <h3>Sitio Web ExDev - Plataforma para Club Universitario</h3>
+              <p>
+                Lideré el desarrollo de la plataforma web oficial del Club de Desarrollo Experimental ExDev, 
+                con el objetivo de centralizar su identidad, actividades y postulaciones estudiantiles. 
+                El sistema fue construido desde cero utilizando React, NestJS y PostgreSQL, 
+                reemplazando el uso de herramientas externas como Notion. Esta solución propia permitió mejorar la organización interna, 
+                facilitar el proceso de postulación y aumentar la visibilidad del club dentro de la comunidad universitaria.
+              </p>
+              <div className='icons-container'>
+                <span title='React'>
+                  <ReactIcon className='info-icon' />
                 </span>
                 <span title='Nest'>
                   <NestIcon className='info-icon' />
@@ -148,6 +177,27 @@ function Home() {
           Experiencia
         </h2>
         
+
+          <article className='experience'>
+            <div className='experience-summary'>
+              <h3>FOLA</h3>
+              <time>2025-Actualidad</time>
+            </div>
+            <div className='experience-details'>
+                <h3>Ingeniero de software</h3>
+                <p>Prestando servicios para el área HIS de la Fundación Oftalmológica Los Andes,
+                   relacionada con los servicios de gestión de presupuestos clínicos. Realizando funciones tales como:
+                </p>
+                <ul>
+                  <li>Mantención de software legado implementado en PHP con Laravel.</li>
+                  <li>Migración progresiva hacia tecnologías modernas como Next.js en el frontend y Go en el backend, mejorando el rendimiento y mantenibilidad del sistema.</li>
+                  <li>Elaboración de un sistema de documentación técnica para registrar y comunicar los cambios realizados en las plataformas existentes.</li>
+                </ul>
+            </div>
+   
+            
+          </article>
+
           <article className='experience'>
             <div className='experience-summary'>
               <h3>Cencosud</h3>
@@ -180,6 +230,11 @@ function Home() {
                 <p>Club universitario centrado en el desarrollo experimental, 
                   donde colaboro en la concepción y ejecución de ideas innovadoras.
                 </p>
+                <ul>
+                  <li>Lideré proyectos de software colaborativos con estudiantes, guiándolos en la creación de soluciones escalables con buenas prácticas de desarrollo.</li>
+                  <li>Dicté charlas para estudiantes de la UTEM, enfocadas en la preparación para el mundo laboral en el área tecnológica.</li>
+                  <li>Produje contenido educativo en formato de video, explicando materias universitarias para apoyar a estudiantes en sus cursos y exámenes.</li>
+                </ul>
             </div>
           </article>
           
