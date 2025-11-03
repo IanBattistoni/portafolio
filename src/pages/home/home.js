@@ -223,7 +223,7 @@ function Home() {
             
             <div className='experience-summary'>
               <h3>Exdev</h3>
-              <time>2018-2024</time>
+              <time>2023-2024</time>
             </div>
             <div className='experience-details'>
                 <h3>Ingeniero de software</h3>
