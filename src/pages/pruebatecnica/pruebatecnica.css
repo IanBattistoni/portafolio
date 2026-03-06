@@ -1,0 +1,330 @@
+.prueba-tecnica-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  
+  color: #f8fafc;
+}
+
+.prueba-tecnica-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.prueba-tecnica-header {
+  margin-bottom: 24px;
+}
+
+.prueba-tecnica-header h1 {
+  margin: 12px 0 8px;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.prueba-tecnica-header p {
+  margin: 0;
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+.prueba-tecnica-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #292955;
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.prueba-tecnica-alerts {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.alert {
+  padding: 14px 16px;
+  border-radius: 12px;
+  font-size: 0.95rem;
+}
+
+.alert-error {
+  background: #292955;
+  border: 1px solid #292955;
+  color: #fecaca;
+}
+
+.alert-success {
+  background: #292955;
+  border: 1px solid rgba(74, 222, 128, 0.35);
+  color: #bbf7d0;
+}
+
+.step-indicator {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.step-item {
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: #1e293b;
+  color: #94a3b8;
+  border: 1px solid #334155;
+  font-weight: 600;
+}
+
+.step-item.active {
+  background: #292955;
+  color: #ffffff;
+  border-color: #292955;
+}
+
+.card {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 14px;
+  color: #f8fafc;
+  font-size: 1.05rem;
+}
+
+.section-text {
+  color: #cbd5e1;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.text-input {
+  min-width: 280px;
+  flex: 1;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: #ffffff;
+  outline: none;
+}
+
+.text-input::placeholder {
+  color: #94a3b8;
+}
+
+.text-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.18);
+}
+
+.primary-button,
+.secondary-button,
+.danger-button {
+  border: none;
+  border-radius: 12px;
+  padding: 11px 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.primary-button {
+  background: rgb(111, 78, 130);
+  color: #ffffff;
+}
+
+.primary-button:hover {
+  background: #451851;
+}
+
+.primary-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.secondary-button {
+  background: rgb(111, 78, 130);
+  color: #ffffff;
+  border: 1px solid #334155;
+}
+
+.secondary-button:hover {
+  background: #334155;
+}
+
+.danger-button {
+  background: #292955;
+  color: #fecaca;
+  border: 1px solid rgba(248, 113, 113, 0.35);
+}
+
+.danger-button:hover {
+  background: rgba(220, 38, 38, 0.28);
+}
+
+.client-box,
+.summary-box,
+.result-box {
+  margin-top: 20px;
+  padding: 16px;
+  border-radius: 14px;
+  background: #0f172a;
+  border: 1px solid #334155;
+  margin-bottom: 10px;
+}
+
+.client-box {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.products-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.products-column {
+  min-width: 0;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.product-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 14px;
+  background: #0f172a;
+  border: 1px solid #334155;
+}
+
+.product-card.selected {
+  border-color: #292955;
+  background: rgba(37, 99, 235, 0.08);
+}
+
+.product-name {
+  margin: 0 0 6px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.product-price {
+  margin: 0;
+  color: #93c5fd;
+}
+
+.empty-text {
+  color: #94a3b8;
+}
+
+.summary-box {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.summary-box p,
+.result-box p {
+  margin: 0;
+  color: #f8fafc;
+}
+
+.new-product-box {
+  margin-bottom: 24px;
+  padding: 18px;
+  border-radius: 14px;
+  background: #0f172a;
+  border: 1px solid #334155;
+}
+
+.new-product-box h3 {
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+.price-input {
+  max-width: 180px;
+}
+
+.actions-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.orders-box {
+  margin-bottom: 24px;
+  padding: 18px;
+  border-radius: 14px;
+  background: #0f172a;
+  border: 1px solid #334155;
+}
+
+.orders-box h3 {
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+@media (max-width: 900px) {
+  .products-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .prueba-tecnica-page {
+    padding: 24px 14px;
+  }
+
+  .card {
+    padding: 18px;
+  }
+
+  .product-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .summary-box {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .primary-button,
+  .secondary-button,
+  .danger-button {
+    width: 100%;
+  }
+}
